@@ -329,11 +329,11 @@ video {
           " pTitulo             pTitulo     "   550px
           " parrafoP1          parrafoP1    "   auto
           " parrafoP2          parrafoP2    "   auto
-          "  cVideo             cVideo      "   400px
+          " cVideo             cVideo       "   400px
           " contenedor         contenedor   "   auto
           " contenedor         contenedor   "   auto
-          "  pieFooter          pieFooter   "   30px /
-                1fr              1fr     ;
+          " pieFooter          pieFooter    "   30px /
+             1fr                  1fr ;
     }
 
     .contenedorDesarrollo, .contenedorRolHab, .contenedorHerr {
