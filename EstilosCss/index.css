@@ -333,7 +333,7 @@ video {
           " contenedor         contenedor   "   auto
           " contenedor         contenedor   "   auto
           "  pieFooter          pieFooter   "   30px /
-                1fr              1fr             1fr     ;
+                1fr              1fr     ;
     }
 
     .contenedorDesarrollo, .contenedorRolHab, .contenedorHerr {
