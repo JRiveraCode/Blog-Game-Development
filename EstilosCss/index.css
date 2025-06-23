@@ -325,14 +325,14 @@ video {
         gap: 20px;
         grid-template: 
         
-          " cHeader             cHeader       cHeader   "   70px
-          " pTitulo             pTitulo       pTitulo   "   550px
-          " parrafoP1             .                .    "   auto
-          " parrafoP2             .                .    "   auto
-          " cVideo              cVideo             .    "   400px
-          " contenedor         contenedor          .    "   auto
-          " contenedor         contenedor          .    "   auto
-          "  pieFooter          pieFooter     pieFooter "   30px /
+          " cHeader             cHeader     "   70px
+          " pTitulo             pTitulo     "   550px
+          " parrafoP1          parrafoP1    "   auto
+          " parrafoP2          parrafoP2    "   auto
+          "  cVideo             cVideo      "   400px
+          " contenedor         contenedor   "   auto
+          " contenedor         contenedor   "   auto
+          "  pieFooter          pieFooter   "   30px /
                 1fr              1fr             1fr     ;
     }
 
@@ -357,6 +357,7 @@ video {
     .parrafoP1 {
         background: #1313136f;
         margin: auto 20px auto 20px;
+        margin: auto;
         width: 800px;
         height: 253px;
     }
@@ -395,13 +396,13 @@ video {
         gap: 20px;
         grid-template: 
         
-          " cHeader             cHeader       cHeader   "   70px
-          " pTitulo             pTitulo       pTitulo   "   600px
-          " parrafoP1           cVideo        cVideo    "   auto
-          " parrafoP2           cVideo        cVideo    "   auto
-          " contenedor         contenedor          .    "   auto
-          " contenedor         contenedor          .    "   auto
-          "  pieFooter          pieFooter     pieFooter "   30px /
+          " cHeader             cHeader       cHeader    "   70px
+          " pTitulo             pTitulo       pTitulo    "   600px
+          " parrafoP1           cVideo        cVideo     "   auto
+          " parrafoP2           cVideo        cVideo     "   auto
+          " contenedor         contenedor    contenedor  "   auto
+          " contenedor         contenedor    contenedor  "   auto
+          "  pieFooter          pieFooter     pieFooter  "   30px /
                 1fr              1fr             1fr     ;
     }
 }
